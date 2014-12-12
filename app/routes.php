@@ -12,6 +12,7 @@ Route::resource('portfolio', 'PorfolioController');
 
 Route::resource('blog', 'BlogController');
 Route::resource('contact', 'ContactController');
+Route::resource('schedule', 'ScheduleController');
 
 Route::resource('resources', 'ResourcesController');
 Route::resource('messages', 'MessagesController');

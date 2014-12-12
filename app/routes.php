@@ -14,6 +14,8 @@ Route::resource('blog', 'BlogController');
 Route::resource('contact', 'ContactController');
 
 Route::resource('resources', 'ResourcesController');
+Route::resource('messages', 'MessagesController');
+Route::resource('messages.contact', 'MessagesController');
 
 Route::resource('process', 'ProcessController');
 Route::resource('payment', 'PlansController');
